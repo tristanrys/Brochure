@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barangay Poblacion Portal Brochure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #8B4513;
+            color: #333;
+        }
+
+        .brochure {
+            width: 100%;
+            max-width: 8.5in; 
+            height: 11in; 
+            margin: 20px auto;
+            background: white;
+            display: flex;
+            flex-direction: row;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            flex: 1;
+            padding: 25px; 
+            border-right: 1px solid #ccc;
+        }
+
+        .section:last-child {
+            border-right: none;
+        }
+
+        h1, h2 {
+            color: #8B4513;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.4rem; 
+            margin-top: 25px;
+            margin-bottom: 20px;
+        }
+
+        p, ul, ul li {
+            font-size: 1rem; 
+            line-height: 1.8; 
+            margin-bottom: 20px;
+            text-align: justify; 
+        }
+
+        ul {
+            margin: 20px 0;
+            padding-left: 25px;
+        }
+
+        ul li {
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1rem; 
+            color: #8B4513;
+            font-weight: bold;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 140px; 
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="brochure">
+        <div class="section">
+            <img src="pobla.png" alt="Barangay Poblacion Logo">
+            <h1>The Barangay Poblacion Portal!</h1>
+            <p>Welcome to the Barangay Poblacion Portal! This portal is designed to streamline administrative processes and improve communication between the barangay and its residents.</p>
+            <h2>Project Features</h2>
+            <ul>
+                <li>User Login and Registration</li>
+                <li>Admin Dashboard</li>
+                <li>Request Management</li>
+                <li>Complaint Management</li>
+                <li>Responsive Design</li>
+                <li>Secure Verification</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Project Description</h2>
+            <p>The Barangay Poblacion portal is a web-based application designed to digitize and simplify barangay operations. It allows residents to interact with the barangay office online, reducing the need for physical visits.</p>
+            <p>Admins can efficiently handle requests and complaints through an intuitive dashboard, while residents can easily access services from the comfort of their homes.</p>
+        </div>
+
+        <div class="section">
+            <h2>How the Project Works</h2>
+            <ul>
+                <li><strong>Residents:</strong> Log in to submit requests for barangay documents or file complaints. Track the status of submissions through the portal.</li>
+                <li><strong>Admin Users:</strong> Log in to the admin dashboard to review and manage requests and complaints. Approve or reject requests and resolve complaints efficiently.</li>
+                <li><strong>Verification:</strong> Admin login includes a verification step to ensure only authorized personnel can access the dashboard.</li>
+                <li><strong>Logout:</strong> Both residents and admins can securely log out of the system to protect their accounts.</li>
+            </ul>
+            <div class="contact">
+                <p>We are ChatTKM!</p>
+                <p>Tristan Reyes & Khen Ilao!</p>
+                <p>Contact Us: ChatTKM@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
